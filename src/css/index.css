@@ -1,0 +1,746 @@
+@import url('https://fonts.cdnfonts.com/css/sporting-grotesque');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.hero-heading {
+    font-family: Sporting Grotesque;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.hero-text .text-1 {
+    width: 60%;
+}
+
+.containerPadding {
+    margin-top: 30px;
+}
+
+.white-button {
+    margin-left: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 174px;
+    height: 56px;
+    color: #264373;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.brands {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.brands-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* navbar starts */
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    /* Adjust the blur value as needed */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    /* Adjust the color and opacity as needed */
+}
+
+.navbar {
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar.sticky {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Adjust the background color and opacity as needed */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Adjust the box-shadow as needed */
+}
+
+
+.logoFirstPart {
+    background-color: #6765F0;
+    color: #FFF;
+    font-family: Sporting Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.logoSecondPart {
+    color: #6765F0;
+    font-family: Sporting Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.navItems {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.loginButton {
+    width: 114px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #264373;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar ends */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    flex: 1;
+    margin-top: 100px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.tips-heading {
+    width: 558px;
+}
+
+.tips-desc {
+    width: 674px;
+}
+
+.tips-list {
+    justify-content: center;
+    padding: 85px;
+    background: linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+    border-radius: 30px;
+}
+
+.tips-list i {
+    margin-left: 20px;
+}
+
+.tips-list-elements {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tips-list-elements-image {
+    position: relative;
+}
+
+.tips-list-space {
+    margin-left: 80px;
+}
+
+.tips-list-elements-text {
+    margin-left: 30px;
+}
+
+.programs-list-elements-text {
+    width: 261px;
+}
+
+.tips-sign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.programs-sign {
+    border-radius: 60px;
+    padding: 15px;
+}
+
+.programs-list-elements:nth-child(1) .programs-sign,
+.programs-list-elements:nth-child(5) .programs-sign {
+    background: linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%);
+}
+
+.programs-list-elements:nth-child(2) .programs-sign,
+.programs-list-elements:nth-child(6) .programs-sign {
+    background: linear-gradient(50.31deg, #4BACE1 15.91%, #D8F1FF 92.82%);
+}
+
+.programs-list-elements:nth-child(3) .programs-sign,
+.programs-list-elements:nth-child(4) .programs-sign {
+    background: linear-gradient(35.49deg, #DD69C7 15.2%, #FFC0F3 87.25%);
+}
+
+.testimonial-list .slick-arrow {
+    display: none !important;
+}
+
+
+.testimonial-info {
+    margin-top: 50px;
+}
+
+.testimonial-elements {
+    width: 573px !important;
+    height: 323px;
+    border-radius: 10px;
+    padding: 45px;
+    box-shadow: 0px 20px 80px 0px #334E7B1A;
+}
+
+.howWorksContent {
+    height: 90px;
+    border-radius: 10px;
+    color: #262524;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 0.18px;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 10px #c7c7c7;
+    text-align: start;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.howWorksContent:hover,
+.howWorksContent:active {
+    background-color: #FFFFFF;
+    height: 100px;
+    /* width: 81%; */
+}
+
+/* footer starts */
+.fullFooter {
+    background-color: #1C3764;
+    height: 350px;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footerHeading {
+    color: #F0F6FF;
+    font-family: Sporting Grotesque;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footerSubInfo {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footerLogoFirstPart {
+    color: #7270EE;
+    font-family: Sporting Grotesque;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footerLogoSecondPart {
+    color: #FFF;
+    font-family: Sporting Grotesque;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.card-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    text-align: left;
+}
+
+
+
+/* Responsive */
+
+/* 768px to 1400px */
+
+@media (max-width: 1400px) {
+
+    .hero-text {
+        margin-top: 30px;
+    }
+
+    .hero-text .text-1 {
+        width: 320px;
+    }
+
+    .hero-heading {
+        font-family: Sporting Grotesque;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .white-button {
+        margin-left: 20px;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-img img {
+        margin-top: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .tips-list {
+        padding: 35px;
+    }
+
+    .tips-rectangle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .tips-rectangle img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .tips-list-elements {
+        flex-direction: column;
+    }
+
+    .tips-list i {
+        margin-left: 5px;
+    }
+
+    .tips-list-elements-text {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .tips-list-elements-text div {
+        text-align: center;
+    }
+
+    .programs-sign {
+        height: 70px;
+        width: 70px;
+    }
+
+    .programs-sign img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .testimonial-elements {
+        width: auto !important;
+        height: auto;
+        margin: 0px 20px;
+        padding: 24px;
+    }
+}
+
+/* 0 to 767px */
+
+@media (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        justify-content: baseline;
+    }
+
+    .hero-text {
+        margin-top: 30px;
+    }
+
+    .hero-text .text-1 {
+        width: auto;
+        text-align: center;
+    }
+
+    .hero-heading {
+        font-family: Sporting Grotesque;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0.01em;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .brands {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .white-button {
+        width: 125px;
+        height: 40px;
+        font-size: 12px;
+        text-align: left;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-family: Poppins;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .hero-img {
+        margin-top: 50px;
+    }
+
+    .hero-img img {
+        margin-top: 50px;
+    }
+
+    .tips-text {
+        flex-direction: column;
+    }
+
+    .tips-text .text-1 {
+        text-align: center;
+    }
+
+    .tips-heading {
+        width: auto;
+    }
+
+    .tips-desc {
+        width: auto;
+    }
+
+    .tips-list {
+        padding: 28px;
+        flex-direction: column;
+    }
+
+    .tips-rectangle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tips-rectangle img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .tips-list-space {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .tips-list-elements {
+        flex-direction: row;
+    }
+
+    .tips-list-elements-text {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .tips-list-elements-text div {
+        text-align: left;
+    }
+
+    .body .text-1 {
+        text-align: center;
+    }
+
+    .body .blue-button {
+        margin: auto;
+    }
+
+    .category-heading {
+        text-align: center !important;
+    }
+
+    .programs-sign {
+        height: 60px;
+        width: 60px;
+    }
+
+    .programs-sign img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .testimonial-info {
+        margin-top: 25px;
+    }
+
+}
+
+/* 1200px to 1200px */
+
+@media (min-width:1200px) and (max-width: 1400px) {
+
+    .testimonial-elements {
+        padding: 34px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .dailyWorkoutConrentDiv {
+        padding-right: 100px;
+        /* padding-left: 210px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dailyImageMargin {
+        display: flex;
+        justify-content: right;
+    }
+
+
+    .navList {
+        gap: 30px;
+    }
+
+    .customHeading {
+        /* padding-top: 80px; */
+    }
+
+    .bestWorkoutConrentDiv {
+        /* padding-right: 230px; */
+        padding-left: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .howWorksContentDiv {
+        /* margin-top: 60px; */
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    /* .howWorksContentDiv div {
+        background-color: blue;
+    } */
+
+    .howWorksContent {
+        transition: .3s;
+        /* width: 80%; */
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .loginButton {
+        width: 100px;
+        height: 35px;
+    }
+
+    .category-heading {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+    }
+
+    .bestWorkoutConrentDiv {
+        padding-right: 60px;
+    }
+
+    .dailyWorkoutConrentDiv {
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+    .dailyImageMargin {
+        margin-left: -15px;
+    }
+
+    .text-1 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .blue-button {
+        font-size: 14px;
+        width: 145px;
+        height: 40px;
+    }
+
+    .rightArrown {
+        height: 20px;
+    }
+
+    .howWorksContentDiv {
+        padding-right: 60px;
+        margin-top: 45px;
+    }
+
+    .howWorksContent {
+        height: 50px;
+        font-size: 12px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .loginButton {
+        width: 100px;
+        height: 35px;
+    }
+
+    .dailyWorkoutConrentDiv {
+        padding: 10px;
+    }
+
+    .imageMargin {
+        padding-top: 30px;
+        margin-left: -15px;
+    }
+
+    .dailyImageMargin {
+        padding-top: 10px;
+        margin-left: -10px;
+    }
+
+    .bestWorkoutConrentDiv {
+        padding: 10px;
+    }
+
+    .logoFirstPart {
+        font-size: 16px;
+    }
+
+    .logoSecondPart {
+        font-size: 16px;
+    }
+
+    .category-heading {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .text-1 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .blue-button {
+        font-size: 13px;
+    }
+
+    .howWorksContent {
+        width: 112%;
+        padding-left: 30px;
+        padding-right: 6px;
+    }
+
+    .howWorksImage {
+        padding-top: 0px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    .fullFooter {
+        background-color: #1C3764;
+        height: 700px;
+    }
+
+    .footer__logo {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .card-text {
+        padding: 0px 80px 0px 15px;
+    }
+
+    .footer__info {
+        display: block;
+        padding-left: 15px;
+        padding-top: 15px;
+        text-align: left;
+    }
+}
